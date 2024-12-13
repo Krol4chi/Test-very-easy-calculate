@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="num">
+    <input  class="input__number"  id="num1"  type="text" placeholder="Введите число 1"> 
+    <input  class="input__number"  id="num2" type="text" placeholder="Введите число 2">
+  </div>
+
+<div class="operation">
+  <button  class="oper" type="button" onclick="op = `+`">+</button>
+  <button  class="oper" type="button" onclick="op = `-`">-</button>
+  <button  class="oper" type="button" onclick="op = `*`">*</button>
+  <button  class="oper" type="button" onclick="op = `/`">/</button>
+</div>
+
+<div class="resultation">
+  <button  class="result__button"  onclick="func()" type="button">Посчитать</button> 
+</div>
+<p id="result"></p>
+<script src="code.js"></script>
+</body>
+</html>
+
+
+
+
+
+
